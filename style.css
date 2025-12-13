@@ -9,5 +9,20 @@ button{
     border-style: none;
     background-color: rgb(48, 48, 48);
     color: aliceblue;
-    
+    text-decoration: underline;
+   text-decoration-color: rgb(243, 243, 58);
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    cursor: pointer;
 }

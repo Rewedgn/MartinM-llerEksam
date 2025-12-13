@@ -5,6 +5,8 @@ background-color: rgb(48, 48, 48)
 border-style: none;
 display: flex;
 justify-content: center;
+text-decoration: underline;
+text-decoration-color: rgb(243, 214, 48)
 
 
 }
@@ -12,10 +14,17 @@ button{
     border-style: none;
     background-color: rgb(48, 48, 48);
     color: aliceblue;
-    text-decoration: underline;
-   text-decoration-color: rgb(243, 243, 58);
    padding: 25px;
    font-size: 35px;
+}
+#hjembillede{
+    
+}
+#tidbutton{
+background-color: rgb(243, 214, 48);
+border-radius: 20px;
+border-color: rgb(255, 213, 106);
+border-style: groove;
 }
 footer{
     display: flex;
@@ -27,6 +36,7 @@ p{
 }
 ul{
     list-style-type: none;
+    
 }
 li{
     cursor: pointer;

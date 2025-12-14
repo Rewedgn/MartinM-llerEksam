@@ -1,6 +1,8 @@
 body{
 background-color: rgb(48, 48, 48) 
 }
+
+/* Nav bar */
 .navbuttons{
 border-style: none;
 display: flex;
@@ -17,6 +19,9 @@ button{
    padding: 25px;
    font-size: 35px;
 }
+/* Nav bar END */
+
+/* Main screen */
 #hjembillede{ 
     
 }
@@ -26,6 +31,10 @@ border-radius: 20px;
 border-color: rgb(255, 213, 106);
 border-style: groove;
 }
+
+/* Main screen END */
+
+/* Footer */
 footer{
     display: flex;
     justify-content: space-evenly;
@@ -41,3 +50,5 @@ ul{
 li{
     cursor: pointer;
 }
+
+/* footer end */

@@ -23,6 +23,7 @@ button{
 
 /* Main screen */
 #hjembillede{ 
+    background-image: url(IntroPic.png);
     
 }
 #tidbutton{

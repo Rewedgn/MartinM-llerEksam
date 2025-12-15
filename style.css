@@ -63,6 +63,22 @@ font-size: 30px;
 font-family: "Montserrat";
 margin-left: 40px;
 }
+.service{
+    display: flex;
+    justify-content: center;   
+}
+h1{
+    display: flex;
+    justify-content: center;
+     font-family: "Rajdhani", sans-serif;
+ letter-spacing: 0.12em;
+ color: white;
+}
+#serviceoption{
+        font-family: "Rajdhani", sans-serif;
+ letter-spacing: 0.12em;
+ color: white;
+}
 
 /* Main screen END */
 
@@ -71,16 +87,31 @@ footer{
     display: flex;
     justify-content: space-evenly;
 }
+h2{
+ font-family: "Montserrat";
+ letter-spacing: 0.12em;
+ color:#FFCC00;
+}
+#telefonnr{
+            font-family: "Rajdhani", sans-serif;
+ letter-spacing: 0.12em;
+ color: white;
+}
 p{
     display: flex;
     justify-content: center;
 }
-ul{
+#navservice{
     list-style-type: none;
-    
+        font-family: "Rajdhani", sans-serif;
+ letter-spacing: 0.12em;
+ color: white;
 }
 li{
     cursor: pointer;
+        font-family: "Rajdhani", sans-serif;
+ letter-spacing: 0.12em;
+ color: white;
 }
 
 /* footer end */

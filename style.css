@@ -107,8 +107,19 @@ p{
  letter-spacing: 0.12em;
  color: white;
 }
+#ft1{
+cursor: pointer;
+        font-family: "Rajdhani", sans-serif;
+ letter-spacing: 0.12em;
+ color: white;
+}
+#ft2{
+cursor: pointer;
+        font-family: "Rajdhani", sans-serif;
+ letter-spacing: 0.12em;
+ color: white;
+}
 li{
-    cursor: pointer;
         font-family: "Rajdhani", sans-serif;
  letter-spacing: 0.12em;
  color: white;

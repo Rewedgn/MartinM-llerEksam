@@ -91,23 +91,23 @@ body {
 .calendar__date {
   padding: 20px;
   display: grid;
-  grid-template-columns:
-  repeat(auto-fit, minmax(25px, 1fr));
-  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+ justify-content: center;
   box-sizing: border-box;
 }
-.calendar__day {
+.weekdays {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   height: 25px;
+  list-style:none; 
   font-weight: 600;
 background-color:#3A3A3A;
 color: #FFCC00;}
 
   .calendar__number {
   display: flex;
-  align-items: center;
+   align-items: center;
   justify-content: center;
   cursor: pointer;
   height: 25px;

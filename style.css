@@ -70,7 +70,7 @@ body {
 }
 /* Kalender */
 #terminer{
-    margin: 40px;
+    background-color: #FFDE5C;
 }
 #dato{
     color: #000000;
@@ -80,6 +80,7 @@ body {
     padding: 5px;
 }
 .calendar {
+    margin-left: 40px;
   position: relative;
   width: 300px;
   background-color: #fff;
@@ -113,6 +114,24 @@ color: #FFCC00;}
   height: 25px;
   background-color: #FFCC00;
   color: #262626;}
+
+  .Dato{}
+  .tid{}
+  .servicetermin{}
+
+  .bekræft{
+    display: flex;
+    justify-content: end;
+    align-items: right;
+  }
+  #Bekræftbutton{
+    background-color: #262626;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: white;
+  }
 /* Kalender END */
 
 /* Min service */

@@ -68,6 +68,45 @@ body {
     margin-left: 40px;
     cursor: pointer;
 }
+/* Kalender */
+#terminer{
+    margin: 40px;
+}
+.calendar {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 5px 50px rgba(#000, 0.5);
+  border-radius: 8px;
+  overflow: hidden;}
+
+.calendar__date {
+  padding: 20px;
+  display: grid;
+  grid-template-columns:
+  repeat(auto-fit, minmax(25px, 1fr));
+  grid-gap: 10px;
+  box-sizing: border-box;
+}
+.calendar__day {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  font-weight: 600;
+background-color:#3A3A3A;
+color: #FFCC00;}
+
+  .calendar__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  height: 25px;
+  background-color: #FFCC00;
+  color: #262626;}
+/* Kalender END */
 
 /* Min service */
 
@@ -235,9 +274,9 @@ p {
 #ft1 {
     cursor: pointer;
     font-family: "Montserrat", serif;
-    ;
     letter-spacing: 0.12em;
     color: white;
+
 }
 
 #ft2 {
@@ -252,5 +291,7 @@ li {
     letter-spacing: 0.12em;
     color: white;
 }
-
+#footermig{
+    cursor: pointer;
+}
 /* footer end */

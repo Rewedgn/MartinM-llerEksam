@@ -122,7 +122,13 @@ input[type=text] {
   border-radius: 15px;
   border-color: white;
 }
-
+select{
+     padding: 12px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+  border-color: white;
+}
   .bekræft{
     display: flex;
     justify-content: end;

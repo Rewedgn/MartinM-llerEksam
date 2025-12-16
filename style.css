@@ -72,6 +72,13 @@ body {
 #terminer{
     margin: 40px;
 }
+#dato{
+    color: #000000;
+    background-color: #FFCC00;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
 .calendar {
   position: relative;
   width: 300px;

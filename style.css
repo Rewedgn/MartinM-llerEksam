@@ -128,11 +128,13 @@ select{
   box-sizing: border-box;
   border-radius: 15px;
   border-color: white;
+  cursor: pointer;
 }
   .bekræft{
     display: flex;
     justify-content: end;
     align-items: right;
+    
   }
   #Bekræftbutton{
     background-color: #262626;
@@ -141,6 +143,7 @@ select{
     border-radius: 10px;
     border-style: double;
     border-color: white;
+    cursor: pointer;
   }
 /* Kalender END */
 

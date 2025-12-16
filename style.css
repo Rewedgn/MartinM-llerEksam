@@ -71,9 +71,20 @@ body {
 
 /* Min service */
 
+.serviceline {
+width: 300px;
+height: 10px;
+}
+
+.Serviceheader {
+    display:flex ;
+align-items: center;    
+gap: 50px;
+}
 #minservice {
     display: flex;
     justify-content: center;
+    align-items: center ;
     flex-direction: column;
     background-image: url(ServicePic.png);
     min-height: 500px;

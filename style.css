@@ -37,7 +37,23 @@ body {
     letter-spacing: 0.12em;
     cursor: pointer;
 }
+@media (max-width: 768px) {
+   .navbuttons{
+     display: flex;
+        justify-content: space-between;
+        align-items: center;
+    padding: 14px 5px;
 
+   }
+   .navbuttons button {
+        padding-left: 20px;
+        font-size: 20px;
+   }
+   .logo img {
+    width: 25px;
+    height: auto;
+}
+}
 /* Nav bar END */
 
 /* Main screen */
@@ -68,7 +84,7 @@ body {
     margin-left: 40px;
     cursor: pointer;
 }
-
+@media (max-width: 768px) {}
 /* Kalender */
 #terminer {
     background-color: #FFDE5C;
@@ -179,6 +195,37 @@ select {
     border-style: double;
     border-color: white;
     cursor: pointer;
+}
+@media (max-width: 768px) {
+    #terminoption{   
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;}
+
+        .calender{
+         flex-direction: row;
+        gap: 30px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        }
+
+        input[type=text]{
+ flex-direction: row;
+        gap: 30px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        }
+
+        select { flex-direction: row;
+        gap: 30px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+        }
 }
 
 /* Kalender END */
@@ -506,5 +553,5 @@ li {
 #footermig {
     cursor: pointer;
 }
-
+@media (max-width: 768px) {}
 /* footer end */

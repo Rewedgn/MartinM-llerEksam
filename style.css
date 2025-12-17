@@ -248,10 +248,8 @@ select {
         align-items: center;
     }
 
-    .calender {
+    .calendar {
         margin-left: 0;
-        width: 100%;
-        max-width: 300px;
     }
 
     input[type=text] {

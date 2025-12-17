@@ -481,6 +481,7 @@ h1 {
 .slider p {
     display: inline-block;
     white-space: nowrap;
+    text-align: center;
 }
 
 @keyframes slide {

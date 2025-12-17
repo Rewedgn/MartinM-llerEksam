@@ -106,7 +106,11 @@
             <div class="bekræft">
                 <button id="Bekræftbutton">Bekræft</button>
             </div>
-
+<div class="Forms">
+                <button id="navn" onclick="namebox('indtast navn')"> Indtast navn</button>
+                <button id="adress" onclick="adressbox('indtast Adresse')"> Indtast adresse</button>
+                <button id="nummer" onclick="nrbox('indtast nummer')">Indtast Nummer</button>
+            </div>
         </section>
 
     </section>
@@ -253,7 +257,15 @@
         <section id="footerbilleder"></section>
     </footer>
     <script>
-document.querySelector("button"); 
+function namebox() {
+        document.querySelector('#enter').innerText = prompt('enter name')
+    }
+    function adressbox(){
+        document.querySelector('#adress').innerText = prompt('enter adress')
+    }
+    function nrbox(){
+      document.querySelector('#nummer').innerText = prompt('enter nummer')   
+    }
 </script>
 </body>
 

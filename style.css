@@ -68,8 +68,9 @@ body {
     margin-left: 40px;
     cursor: pointer;
 }
+
 /* Kalender */
-#terminer{
+#terminer {
     background-color: #FFDE5C;
     display: flex;
     align-items: center;
@@ -84,88 +85,93 @@ body {
     min-width: 250px;
 }
 
-#dato{
+#dato {
     color: #000000;
     background-color: #FFCC00;
     display: flex;
     justify-content: center;
     padding: 5px;
 }
+
 .calendar {
     margin-left: 40px;
-  position: relative;
-  width: 300px;
-  background-color: #fff;
-  box-sizing: border-box;
-  box-shadow: 0 5px 50px rgba(#000, 0.5);
-  border-radius: 8px;
-  overflow: hidden;
+    position: relative;
+    width: 300px;
+    background-color: #fff;
+    box-sizing: border-box;
+    box-shadow: 0 5px 50px rgba(#000, 0.5);
+    border-radius: 8px;
+    overflow: hidden;
 }
 
 .calendar__date {
-  padding: 20px;
-  display: grid;
-  grid-template-columns: repeat(7, 1fr);
- justify-content: center;
-  box-sizing: border-box;
-  gap: 5px;
-  padding: 10px 0px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    box-sizing: border-box;
+    gap: 5px;
+    padding: 10px 0px;
 }
+
 .weekdays {
-  display: grid;
-grid-template-columns: repeat(7, 1fr);
-gap: 5px;
-  height: 25px;
-  list-style:none; 
-  font-weight: 600;
-color: #FFCC00;
-padding: 0;
-margin: 0;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    height: 25px;
+    list-style: none;
+    font-weight: 600;
+    color: #FFCC00;
+    padding: 0;
+    margin: 0;
 }
 
 .weekdays li {
-  background-color: #2F2F2F;
-  color: #FFCC00;
-  text-align: center;
-  padding: 6px 0;
-  border-radius: 6px;
-  font-weight: 600;
-  font-size: 13px;
+    background-color: #2F2F2F;
+    color: #FFCC00;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 13px;
 }
 
-  .calendar__number {
-  display: flex;
-   align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  height: 25px;
-  background-color: #FFCC00;
-  color: #000000;
+.calendar__number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    height: 25px;
+    background-color: #FFCC00;
+    color: #000000;
 }
 
 input[type=text] {
-  padding: 12px;
-  margin: 10px 0;
-  box-sizing: border-box;
-  border-radius: 15px;
-  border-color: white;
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border-color: white;
 }
-select{
-     padding: 12px;
-  margin: 10px 0;
-  box-sizing: border-box;
-  border-radius: 20px;
-  border-color: rgb(255, 255, 255);
-  cursor: pointer;
-  height: 40px;
+
+select {
+    padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    cursor: pointer;
+    height: 40px;
 
 }
-  .bekræft{
+
+.bekræft {
     display: flex;
     justify-content: flex-end;
-    
-  }
-  #Bekræftbutton{
+
+}
+
+#Bekræftbutton {
     background-color: #262626;
     color: white;
     padding: 10px;
@@ -173,138 +179,140 @@ select{
     border-style: double;
     border-color: white;
     cursor: pointer;
-  }
+}
+
 /* Kalender END */
 
 /*Martin START*/
 
 .Ommig {
-  display: flex;
-  gap: 100px;
-  padding: 40px;
-  background-color: #3f3f3f;
-  color: white;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  justify-content: center;
-  font-family: "Montserrat";
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+    background-color: #3f3f3f;
+    color: white;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: "Montserrat";
 }
 
 .billede h2 {
-  margin-bottom: 15px;
-  font-size: 40px;
-  color: #fff;
+    margin-bottom: 15px;
+    font-size: 40px;
+    color: #fff;
 }
 
 .billede img {
-  width: 480px;
-  border-radius: 12px;
-  border: 3px solid #FFDE5C;
+    width: 480px;
+    border-radius: 12px;
+    border: 3px solid #FFDE5C;
 }
 
 .martintekst h2 {
-  margin-bottom: 10px;
-  border-bottom: 2px solid white;
-  display: inline-block;
-  padding-bottom: 10px;
-  font-size: 40px;
-  color: #fff;
+    margin-bottom: 10px;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: #fff;
 }
 
 .martintekst p {
-  max-width: 450px;
-  font-size: 30px;
+    max-width: 450px;
+    font-size: 30px;
 }
 
 @media (max-width: 768px) {
-  .Ommig {
-    flex-direction: column;
-    gap: 30px;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-  }
+    .Ommig {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
 
-  .billede img {
-    width: 100%;
-    max-width: 320px;
-  }
+    .billede img {
+        width: 100%;
+        max-width: 320px;
+    }
 
-  .billede h2,
-  .varmepumpetekst h2 {
-    font-size: 28px;
-  }
+    .billede h2,
+    .varmepumpetekst h2 {
+        font-size: 28px;
+    }
 
-  .martintekst p {
-    font-size: 18px;
-    padding: 15px;
-  }
+    .martintekst p {
+        font-size: 18px;
+        padding: 15px;
+    }
 }
 
 
-/*Martin END*/ 
+/*Martin END*/
 
 /*Varmepumpe START*/
 .reklame {
-  display: flex;
-  gap: 100px;
-  padding: 40px;
-  background-color: #FFDE5C;
-  align-items: flex-start;
-  flex-wrap: nowrap;
-  justify-content: center;
-  font-family: "Montserrat";
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+    background-color: #FFDE5C;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: "Montserrat";
 }
 
 .pumpebillede h2 {
-  margin-bottom: 15px;
-  font-size: 40px;
-  font-family: "Rajdhani";
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-family: "Rajdhani";
 }
 
 .pumpebillede img {
-  width: 480px;
- 
+    width: 480px;
+
 }
+
 .varmepumpetekst h2 {
-  margin-bottom: 10px;
-  display: inline-block;
-  padding-bottom: 10px;
-  font-size: 40px;
-  color: #3A3A3A;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding-bottom: 10px;
+    font-size: 40px;
+    color: #3A3A3A;
 }
 
 .varmepumpetekst p {
-  font-size: 30px;
-  background-color: #FFEFAD;
-  border-radius: 20px;
-  padding: 20px;
-  color: #000000;
+    font-size: 30px;
+    background-color: #FFEFAD;
+    border-radius: 20px;
+    padding: 20px;
+    color: #000000;
 }
 
 @media (max-width: 768px) {
-  .reklame {
-    flex-direction: column;
-    gap: 30px;
-    padding: 20px;
-    align-items: center;
-    text-align: center;
-  }
+    .reklame {
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px;
+        align-items: center;
+        text-align: center;
+    }
 
-  .pumpebillede img {
-    width: 100%;
-    max-width: 320px;
-  }
+    .pumpebillede img {
+        width: 100%;
+        max-width: 320px;
+    }
 
-  .pumpebillede h2,
-  .varmepumpetekst h2 {
-    font-size: 28px;
-  }
+    .pumpebillede h2,
+    .varmepumpetekst h2 {
+        font-size: 28px;
+    }
 
-  .varmepumpetekst p {
-    font-size: 18px;
-    padding: 15px;
-  }
+    .varmepumpetekst p {
+        font-size: 18px;
+        padding: 15px;
+    }
 }
 
 
@@ -313,19 +321,20 @@ select{
 /* Min service */
 
 .serviceline {
-width: 300px;
-height: 10px;
+    width: 300px;
+    height: 10px;
 }
 
 .Serviceheader {
-    display:flex ;
-align-items: center;    
-gap: 50px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
 }
+
 #minservice {
     display: flex;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
     flex-direction: column;
     background-image: url(ServicePic.png);
     min-height: 500px;
@@ -493,7 +502,9 @@ li {
     letter-spacing: 0.12em;
     color: white;
 }
-#footermig{
+
+#footermig {
     cursor: pointer;
 }
+
 /* footer end */

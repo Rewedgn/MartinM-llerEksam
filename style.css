@@ -37,23 +37,28 @@ body {
     letter-spacing: 0.12em;
     cursor: pointer;
 }
-@media (max-width: 768px) {
-   .navbuttons{
-     display: flex;
-        justify-content: space-between;
-        align-items: center;
-    padding: 14px 5px;
 
-   }
-   .navbuttons button {
-        padding-left: 20px;
-        font-size: 20px;
-   }
-   .logo img {
-    width: 25px;
-    height: auto;
+@media (max-width: 768px) {
+    .navbuttons {
+        gap: 20px;
+        padding-left: 0;
+
+    }
+
+    .navbuttons button {
+        padding: 10px;
+        font-size: 15px;
+    }
+
+    .logo img {
+        width: 25px;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
 }
-}
+
 /* Nav bar END */
 
 /* Main screen */
@@ -84,7 +89,17 @@ body {
     margin-left: 40px;
     cursor: pointer;
 }
-@media (max-width: 768px) {}
+
+@media (max-width: 768px) {
+
+    #tidbutton {
+        width: 200px;
+        height: 50px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
+
 /* Kalender */
 #terminer {
     background-color: #FFDE5C;
@@ -107,7 +122,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 5px;
-    
+
 }
 
 .calendar {
@@ -141,7 +156,7 @@ body {
     list-style: none;
     font-weight: 600;
     color: #FFCC00;
-    padding:0px;
+    padding: 0px;
     margin: 0;
 }
 
@@ -189,22 +204,28 @@ select {
     justify-content: flex-end;
 
 }
-.Forms{
+
+.Forms {
     display: flex;
     flex-direction: column;
     justify-content: right;
 }
-#navn,#adress,#nummer{
-       padding: 12px;
+
+#navn,
+#adress,
+#nummer {
+    padding: 12px;
     margin: 10px 0;
     box-sizing: border-box;
     border-radius: 10px;
-    border-color:#262626;
+    border-color: #262626;
     cursor: pointer;
     display: flex;
     flex-direction: column;
 }
-#Bekræftbutton, #Bekræftbutton2  {
+
+#Bekræftbutton,
+#Bekræftbutton2 {
     background-color: #262626;
     color: white;
     padding: 10px;
@@ -213,36 +234,40 @@ select {
     border-color: white;
     cursor: pointer;
 }
+
 @media (max-width: 768px) {
-    #terminoption{   
+    #terminoption {
+        width: 100%;
+        align-items: center;
+    }
+
+    #terminer {
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
         padding: 20px;
         align-items: center;
-        text-align: center;}
+    }
 
-        .calender{
-         flex-direction: row;
-        gap: 30px;
-        padding: 20px;
-        align-items: center;
-        text-align: center;
-        }
+    .calender {
+        margin-left: 0;
+        width: 100%;
+        max-width: 300px;
+    }
 
-        input[type=text]{
- flex-direction: row;
- gap: 30px;
-        padding: 20px;
-        align-items: center;
+    input[type=text] {
+        width: 100%;
+        max-width: 300px;
+        padding: 10px;
         text-align: center;
-        }
+    }
 
-        select { flex-direction: row;
-        gap: 30px;
-        padding: 20px;
-        align-items: center;
+    select {
+        width: 100%;
+        max-width: 300px;
+        padding: 10px;
         text-align: center;
-        }
+
+    }
 }
 
 /* Kalender END */
@@ -449,6 +474,21 @@ h1 {
     display: flex;
 }
 
+@media (max-width: 768px) {
+    #list {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+    
+    }
+
+    .serviceline {
+        width: 60px;
+        height: 5px;
+    }
+
+}
+
 /* Min service END */
 
 /* Anmeldeser START */
@@ -549,7 +589,7 @@ p {
 
 #ft1 {
     cursor: pointer;
-    font-family: "Rajdhani",sans-serif;
+    font-family: "Rajdhani", sans-serif;
     letter-spacing: 0.12em;
     color: white;
 
@@ -557,13 +597,13 @@ p {
 
 #ft2 {
     cursor: pointer;
-    font-family: "Rajdhani",sans-serif;
+    font-family: "Rajdhani", sans-serif;
     letter-spacing: 0.12em;
     color: white;
 }
 
 li {
-    font-family: "Rajdhani",sans-serif;
+    font-family: "Rajdhani", sans-serif;
     letter-spacing: 0.12em;
     color: white;
 }
@@ -571,9 +611,13 @@ li {
 #footermig {
     cursor: pointer;
 }
+
 @media (max-width: 768px) {
-    h2{
-        justify-content: space-evenly;
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 }
+
 /* footer end */

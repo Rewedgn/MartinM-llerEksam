@@ -176,6 +176,88 @@ select{
   }
 /* Kalender END */
 
+/*Martin START*/
+
+.Ommig {
+  display: flex;
+  gap: 100px;
+  padding: 40px;
+  background-color: #3f3f3f;
+  color: white;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-family: "Montserrat";
+}
+
+.billede h2 {
+  margin-bottom: 15px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.billede img {
+  width: 480px;
+  border-radius: 12px;
+  border: 3px solid #FFDE5C;
+}
+
+.martintekst h2 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 40px;
+  color: #fff;
+}
+
+.martintekst p {
+  max-width: 450px;
+  font-size: 30px;
+}
+
+/*Martin END*/ 
+
+/*Varmepumpe START*/
+.reklame {
+  display: flex;
+  gap: 100px;
+  padding: 40px;
+  background-color: #FFDE5C;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: center;
+  font-family: "Montserrat";
+}
+
+.pumpebillede h2 {
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-family: "Rajdhani";
+}
+
+.pumpebillede img {
+  width: 480px;
+ 
+}
+.varmepumpetekst h2 {
+  margin-bottom: 10px;
+  display: inline-block;
+  padding-bottom: 10px;
+  font-size: 40px;
+  color: #3A3A3A;
+}
+
+.varmepumpetekst p {
+  font-size: 30px;
+  background-color: #FFEFAD;
+  border-radius: 20px;
+  padding: 20px;
+  color: #000000;
+}
+
+/*varmepumpe END*/
+
 /* Min service */
 
 .serviceline {

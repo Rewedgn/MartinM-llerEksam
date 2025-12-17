@@ -107,6 +107,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 5px;
+    
 }
 
 .calendar {
@@ -128,6 +129,8 @@ body {
     box-sizing: border-box;
     gap: 5px;
     padding: 10px 0px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .weekdays {
@@ -138,7 +141,7 @@ body {
     list-style: none;
     font-weight: 600;
     color: #FFCC00;
-    padding: 0;
+    padding:0px;
     margin: 0;
 }
 

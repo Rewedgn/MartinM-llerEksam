@@ -214,7 +214,7 @@ select {
 
         input[type=text]{
  flex-direction: row;
-        gap: 30px;
+ gap: 30px;
         padding: 20px;
         align-items: center;
         text-align: center;
@@ -507,13 +507,13 @@ footer {
 }
 
 h2 {
-    font-family: "Rajdhani", sans-serif;
+    font-family: "Montserrat", serif;
     letter-spacing: 0.12em;
     color: #FFCC00;
 }
 
 #telefonnr {
-    font-family: "Montserrat", serif;
+    font-family: "Rajdhani", sans-serif;
     letter-spacing: 0.12em;
     color: white;
 }
@@ -525,14 +525,14 @@ p {
 
 #navservice {
     list-style-type: none;
-    font-family: "Montserrat", serif;
+    font-family: "Rajdhani", sans-serif;
     letter-spacing: 0.12em;
     color: white;
 }
 
 #ft1 {
     cursor: pointer;
-    font-family: "Montserrat", serif;
+    font-family: "Rajdhani",sans-serif;
     letter-spacing: 0.12em;
     color: white;
 
@@ -540,13 +540,13 @@ p {
 
 #ft2 {
     cursor: pointer;
-    font-family: "Montserrat", serif;
+    font-family: "Rajdhani",sans-serif;
     letter-spacing: 0.12em;
     color: white;
 }
 
 li {
-    font-family: "Montserrat", serif;
+    font-family: "Rajdhani",sans-serif;
     letter-spacing: 0.12em;
     color: white;
 }
@@ -554,5 +554,9 @@ li {
 #footermig {
     cursor: pointer;
 }
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+    h2{
+        justify-content: space-evenly;
+    }
+}
 /* footer end */

@@ -189,8 +189,22 @@ select {
     justify-content: flex-end;
 
 }
-
-#Bekræftbutton {
+.Forms{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+}
+#navn,#adress,#nummer{
+       padding: 12px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border-color:#262626;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+#Bekræftbutton, #Bekræftbutton2  {
     background-color: #262626;
     color: white;
     padding: 10px;

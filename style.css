@@ -1,5 +1,5 @@
 body {
-    background-color: #3A3A3A;
+    background-color:#262626;
     margin: 0;
 }
 
@@ -10,7 +10,7 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    background-color: #3A3A3A;
+    background-color:#262626;
     padding: 16px 40px;
 
 }
@@ -85,7 +85,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 30px;
-    font-family: "Montserrat";
+    font-family: "Rajdhani", sans-serif;
     margin-left: 40px;
     cursor: pointer;
 }
@@ -126,7 +126,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 5px;
-
+ font-family: "Rajdhani", sans-serif;
 }
 
 .calendar {
@@ -165,7 +165,7 @@ body {
 }
 
 .weekdays li {
-    background-color: #2F2F2F;
+    background-color:#262626;
     color: #FFCC00;
     text-align: center;
     padding: 6px 0;
@@ -190,6 +190,7 @@ input[type=text] {
     box-sizing: border-box;
     border-radius: 15px;
     border-color: white;
+     font-family: "Rajdhani", sans-serif;
 }
 
 select {
@@ -200,13 +201,13 @@ select {
     border-color: rgb(255, 255, 255);
     cursor: pointer;
     height: 40px;
-
+ font-family: "Rajdhani", sans-serif;
 }
 
 .bekræft {
     display: flex;
     justify-content: flex-end;
-
+ font-family: "Rajdhani", sans-serif;
 }
 
 .Forms {
@@ -297,7 +298,7 @@ select {
     display: flex;
     gap: 100px;
     padding: 40px;
-    background-color: #3f3f3f;
+    background-color:#262626;
     color: white;
     align-items: flex-start;
     flex-wrap: nowrap;
@@ -309,6 +310,7 @@ select {
     margin-bottom: 15px;
     font-size: 40px;
     color: #fff;
+     font-family: "Rajdhani", sans-serif;
 }
 
 .billede img {
@@ -324,6 +326,7 @@ select {
     padding-bottom: 10px;
     font-size: 40px;
     color: #fff;
+     font-family: "Rajdhani", sans-serif;
 }
 
 .martintekst p {
@@ -348,6 +351,7 @@ select {
     .billede h2,
     .varmepumpetekst h2 {
         font-size: 28px;
+         font-family: "Rajdhani", sans-serif;
     }
 
     .martintekst p {
@@ -387,7 +391,7 @@ select {
     display: inline-block;
     padding-bottom: 10px;
     font-size: 40px;
-    color: #3A3A3A;
+    color:#262626
 }
 
 .varmepumpetekst p {
@@ -396,6 +400,7 @@ select {
     border-radius: 20px;
     padding: 20px;
     color: #000000;
+     font-family: "Montserrat";
 }
 
 @media (max-width: 768px) {
@@ -456,6 +461,7 @@ select {
 #list {
     display: flex;
     justify-content: space-evenly;
+     font-family: "Montserrat";
 }
 
 .Servicelist {
@@ -464,12 +470,14 @@ select {
     font-size: 20px;
     line-height: 40px;
     font-weight: bold;
+     font-family: "Montserrat";
 }
 
 .Servicelist2 {
     font-size: 20px;
     line-height: 40px;
     font-weight: bold;
+     font-family: "Montserrat";
 }
 
 h1 {
@@ -613,13 +621,13 @@ footer {
 }
 
 h2 {
-    font-family: "Montserrat", serif;
+     font-family: "Rajdhani", sans-serif;
     letter-spacing: 0.12em;
     color: #FFCC00;
 }
 
 #telefonnr {
-    font-family: "Rajdhani", sans-serif;
+   font-family: "Montserrat";
     letter-spacing: 0.12em;
     color: white;
 }
@@ -631,14 +639,14 @@ p {
 
 #navservice {
     list-style-type: none;
-    font-family: "Rajdhani", sans-serif;
+   font-family: "Montserrat";
     letter-spacing: 0.12em;
     color: white;
 }
 
 #ft1 {
     cursor: pointer;
-    font-family: "Rajdhani", sans-serif;
+   font-family: "Montserrat";
     letter-spacing: 0.12em;
     color: white;
 
@@ -646,13 +654,13 @@ p {
 
 #ft2 {
     cursor: pointer;
-    font-family: "Rajdhani", sans-serif;
+  font-family: "Montserrat";
     letter-spacing: 0.12em;
     color: white;
 }
 
 li {
-    font-family: "Rajdhani", sans-serif;
+ font-family: "Montserrat";
     letter-spacing: 0.12em;
     color: white;
 }

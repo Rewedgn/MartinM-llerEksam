@@ -668,12 +668,19 @@ li {
 #footermig {
     cursor: pointer;
 }
+.footersocial img{
+margin-top: 15px;
+padding: 5px;
+}
 
 @media (max-width: 768px) {
     footer {
         flex-direction: column;
         align-items: center;
         text-align: center;
+    }
+    .footersocial img{
+height: 50px;
     }
 }
 

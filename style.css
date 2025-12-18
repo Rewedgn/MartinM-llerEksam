@@ -626,7 +626,7 @@ h2 {
     color: #FFCC00;
 }
 
-#telefonnr {
+#telefonnr, #email {
    font-family: "Montserrat";
     letter-spacing: 0.12em;
     color: white;
